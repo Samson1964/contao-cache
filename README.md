@@ -2,11 +2,20 @@
 
 ## Information ##
 
-Die Cache-Klasse ist eine Anpasung für Contao. Sie basiert auf [Simple PHP Cache](https://github.com/cosenary/Simple-PHP-Cache).
+Die Cache-Klasse ist eine Anpassung für Contao. Sie basiert auf [Simple PHP Cache](https://github.com/cosenary/Simple-PHP-Cache).
 
 ## Entwickler ##
 
 * Frank Hoppe <hoppe.berlin@googlemail.com>
+
+## Installation ##
+
+Falls die Klasse in einer Erweiterung angewendet wird, so muß ggfs. ein Eintrag in der autoload.ini der Erweiterung erfolgen:
+```php
+<?php
+    requires[] = "cache"
+?>
+```
 
 ## Anwendung ##
 
